@@ -7,7 +7,7 @@ import pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class C01_configReaderKullanimi {
+public class C01_ConfigReaderKullanimi {
 
     @Test
     public void test01(){

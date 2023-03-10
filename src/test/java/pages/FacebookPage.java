@@ -12,13 +12,13 @@ public class FacebookPage {
     }
 
 
-    @FindBy(xpath = "//button[@title='Only allow essential cookies']")
+    @FindBy(xpath = "//button[@title='Sadece temel çerezlere izin ver']")
     public WebElement cookiesKabulButonu;
 
-    @FindBy(xpath = "//input[@placeholder='Email address or phone number']")
+    @FindBy(id = "email")
     public WebElement emailKutusu;
 
-    @FindBy(xpath = "//input[@placeholder='Password']")
+    @FindBy(id ="passContainer ")
     public WebElement passwordKutusu;
 
     @FindBy(xpath = "//button[@name='login']")

@@ -70,9 +70,3 @@ public class C03_BeforeafterNotasyonlari {
         System.out.println("After Method");
     }
 }
-    git init
-    git add README.md
-        git commit -m "first commit"
-        git branch -M main
-        git remote add origin https://github.com/aytnkk/testNG.git
-        git push -u origin main
